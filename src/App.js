@@ -2,6 +2,7 @@ import './App.css';
 import StateHook from './components/useState/StateHook'
 import EffectHook from './components/useEffect/EffectHook'
 import EffectCleanUp from './components/useEffect/EffectCleanUp'
+import ContextHook from './components/useContext/ContextHook'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <StateHook/>
       <EffectHook/>
       <EffectCleanUp/>
+      <ContextHook/>
     </div>
   );
 }
