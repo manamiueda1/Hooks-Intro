@@ -1,10 +1,13 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 
-const StateHook = () => {
+const EffectHook = () => {
   const [count, setCount] = useState(0);
+  useEffect(() => {
+      console.log(`You clicked ${count} times`)
+  })
     return (
       <div>
-        <h1>useState Hook</h1>
+          <h1>useEffect Hook</h1>
         <p>Clicked {count} times</p>
         <button onClick={() => setCount(count +1)}>
           Click Here
@@ -13,4 +16,4 @@ const StateHook = () => {
     );
 }
 
-export default StateHook
+export default EffectHook
