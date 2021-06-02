@@ -7,7 +7,7 @@ const EffectHook = () => {
   })
     return (
       <div>
-          <h1>useEffect Hook</h1>
+        <h1>useEffect Hook</h1>
         <p>Clicked {count} times</p>
         <button onClick={() => setCount(count +1)}>
           Click Here
