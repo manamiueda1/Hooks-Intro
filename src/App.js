@@ -4,6 +4,7 @@ import EffectHook from './components/useEffect/EffectHook'
 import EffectCleanUp from './components/useEffect/EffectCleanUp'
 import ContextHook from './components/useContext/ContextHook'
 import RefHook from './components/useRef/RefHook'
+import CallbackHook from './components/useCallback/CallbackHook'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <EffectCleanUp/>
       <ContextHook/>
       <RefHook/>
+      <CallbackHook/>
     </div>
   );
 }
